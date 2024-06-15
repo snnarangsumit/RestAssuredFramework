@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+        <listener class-name="RESTAssuredTest.resources.ExtentReporterNG"/>
+    </listeners>
+  
+  
+  <test name="Test">
+    <classes>
+      <class name="RESTAssuredTest.TestFramework.basics"/>
+     
+     <!-- 
+      <class name="RESTAssuredTest.TestFramework.basics"/>
+      <class name="RESTAssuredTest.TestFramework.basics2"/>
+      <class name="RESTAssuredTest.TestFramework.basics3"/>
+      <class name="RESTAssuredTest.TestFramework.basics4"/>
+      <class name="RESTAssuredTest.TestFramework.basics5"/>
+      <class name="RESTAssuredTest.TestFramework.basics6"/>
+      <class name="RESTAssuredTest.TestFramework.basics7"/>
+      <class name="RESTAssuredTest.TestFramework.basics8"/>
+      <class name="RESTAssuredTest.TestFramework.basics9"/>
+      <class name="RESTAssuredTest.TestFramework.basics10"/>
+      <class name="RESTAssuredTest.TestFramework.basics11"/>
+      <class name="RESTAssuredTest.TestFramework.excelDriven"/>
+      
+      
+       -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
